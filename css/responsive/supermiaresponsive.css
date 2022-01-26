@@ -1,0 +1,354 @@
+@media screen and (max-width: 1300px){
+	#parrafo_principal {
+		left: 1%;
+	}
+	.logo {
+		left: 12%;
+	}
+}
+
+
+@media screen and (max-width: 1100px){
+	
+
+}
+
+
+@media screen and (max-width: 1100px){
+	.nav__ul {
+		
+		height: 100px;
+		
+		position: relative;
+		background: #094700;
+		z-index: 200;
+	}
+	.nav__ul ul li {
+		width: 100%;
+		margin: auto;
+	}
+}
+@media screen and (max-width: 1050px){
+	.nav__ul {
+		display:none ;
+	}
+	#parrafo_principal {
+	z-index: 200;
+}
+	.menu-page{
+		height: 37px;
+		width:100% ;
+		background: green;
+	}
+	.nav__ul-resposive {
+		display: block;
+	}
+	.nav_li-container {
+		top: 0 ;
+		display: block;
+		}
+		.nav__responsive-buttom-container {
+			display: block;
+		}
+	.logo {
+		left: 20%;
+	}
+	
+}
+@media screen and (max-width: 992px){
+	.Redes_Sociales {
+		padding-left: 70%;
+	}
+	
+}
+@media screen and (max-width: 900px) {
+	.main__article {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.wrapper-left{
+		
+	}
+	.wrapper-left__div  {
+	width: auto;
+	height: 650.94px;
+}
+.wrapper-left__div img {
+	margin-top: 25px;
+	padding: 0px;
+	width: 400px;
+	margin: auto;
+}
+
+
+.form-container {
+
+}
+.wrapper-left {
+}
+.wrapper-right {
+	background: blue;
+	height: 10000px;
+}
+section {
+	min-width: 400px;
+}
+
+}
+@media screen and (max-width: 878px){
+	.fondo-main {
+	position: relative;
+	width: 100%;
+	height: 1650px;
+}
+	main {
+	position: relative;
+	flex-direction: column; 
+	width: 100%;
+	max-width: 800px;
+	height: 1650px;
+	margin: auto;
+	margin-bottom: 140px;
+	align-items: center;
+}
+main section {
+	position: relative;
+	margin: 0 12%;
+	width: 150%;
+}
+
+.card_3 {
+	max-height: 485px;
+	height: 60%;
+}
+.articles {
+	margin: auto;
+	width: 100%;
+}
+.wrapper_left {
+	float: none;
+	position: relative;
+	bottom: 230px;
+	width: 50% ;
+	text-align: ;
+	padding-top: ;
+	order: 1;
+	margin-left: auto;
+	margin-top:auto;
+	width: 405px;
+}
+.wrapper-right {
+	order: 2;
+	position: relative;
+	bottom: 430px;
+	margin-left: auto;
+	margin-top: auto;
+	margin-left: auto;
+	margin-top:auto;
+	width: 435px;
+}
+	
+.foto-menu-container {
+	width:  405px;
+}
+	.foto-menu{
+		position: relative;
+		right: ;
+		width: 100%;
+	}
+
+}
+@media screen and (max-width: 700px){
+	header {
+	height: 100px;
+	
+}
+	.logo {
+		width:70%;
+		margin-top: 10px;
+		margin-left: 10px;
+	}
+	#parrafo_principal {
+	width: 200px;
+	font-size: 12px;
+}
+}
+
+@media screen and (max-width: 680px){
+	.logo {
+		width: ;
+		margin: auto 0;
+	}
+	/*
+	.card_1 {
+		max-width: 400px;
+		width: 90%;
+		background: red;
+		margin: auto;
+	}
+	*/
+
+
+	.content-footer-1 {
+		padding-left: 1%;
+	}
+	footer .content-footer-3 {
+		padding-left: 80%;
+	}
+	.Redes_Sociales {
+		padding-left: 60%;
+	}
+}
+
+
+
+
+}
+@media screen and (max-width: 550px) {
+	#parrafo_principal {
+
+	top: 30px;
+	left: 10px;
+	
+}
+.logo {
+	top: 30px;
+	left: 30px;
+}
+header {
+	height: 100px;
+
+	
+}
+	.nav__responsive-buttom {
+	position: relative;
+	bottom: 0px;
+	}
+}
+@media screen and (max-width: 500px){
+	footer {
+		height: auto;
+	}
+	.content-footer-1 {
+		position: relative;
+		text-align: center;
+	}
+	footer .content-footer-2 {
+		position: relative;
+		padding-left: 1%;
+		padding-top: 0px;
+		text-align: center;
+	}
+	footer .content-footer-3 {
+		position: relative;
+		padding-left: 1%;
+		bottom: 40px;
+		text-align: center;
+	}
+	.Redes_Sociales {
+		position: absolute;
+		top: 290px;
+		padding-left: 0px;
+
+		padding-left: auto;
+		padding-right: auto;
+		
+	}
+}
+/*===========================================================Mobile Design============================================================================*/
+@media screen and (max-width: 500px){
+	main {
+	width: 100%;
+	max-width: 340px;
+	height: 100%;
+}
+
+
+.fondo-main {
+	position: relative;
+	width: 100%;
+	height: 1000px;
+}
+
+.wrapper-left__div img {
+	margin-top: 25px;
+	padding: 0px;
+	width: 250px;
+	height: auto;
+	margin-left: 75px;
+}
+.wrapper-left__div {
+	height: auto;
+}
+
+.form-container {
+	padding: 15px;
+	width: 250px;
+	height: 420px;
+}
+.wrapper-rigth { 
+	
+}
+.wrapper-rigth__p {
+	position: relative;
+	margin-top: 25px;
+	font-size: 9px;
+	text-align: center;
+	width: 100%;
+	color:#fff ;
+}
+.form {
+	margin: auto;
+	margin-top: 7.5px;
+	width: 220px;
+	height: 370px;
+	background: rgba(9, 71, 0, 0.60);
+	border: 5px solid #fff;
+	border-radius: 4px;
+	
+}
+.form p, input {
+	font-size: 9px;
+	color: #fff;
+	text-align: center;
+	margin: 9px auto;
+}
+.ubicacion  {
+	font-size: 8px;
+}
+input {
+
+	margin: 0 20px ;
+	border-radius: 5px;
+	border: 2px solid #fff;
+	background: transparent;
+	width:170px ;
+	height:21px ;
+}
+.submit-container {
+	width: 100%;
+	display: flex;
+    align-items: center;        /*estas 3 lineas de codigo es para centrar vercicalmente el input submit*/
+    justify-content: center;
+}
+input[type="submit"]{
+	margin: 0px auto ;
+	margin-top: 60px;
+	
+	width:100px ;
+
+
+}
+
+/*==============footer mobile=================*/
+footer {
+		height: 500px;
+	}
+footer p {
+	font-size: 11px;
+}
+	
+	.Redes_Sociales {	
+	}
+}

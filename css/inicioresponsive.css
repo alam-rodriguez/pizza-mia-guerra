@@ -1,0 +1,111 @@
+@media screen and (max-width: 1300px){
+	#parrafo_principal {
+		left: 1%;
+	}
+	.logo {
+		left: 11%;
+	}
+}
+
+
+@media screen and (max-width: 1100px){
+	
+
+}
+
+
+@media screen and (max-width: 1100px){
+	.nav__ul {
+		
+		height: 100px;
+		
+		position: relative;
+		background: #094700;
+		z-index: 200;
+	}
+	.nav__ul ul li {
+		width: 100%;
+		margin: auto;
+	}
+}
+@media screen and (max-width: 1050px){
+	.nav__ul {
+		display:none ;
+	}
+	.menu-page{
+		height: 37px;
+		width:100% ;
+		background: green;
+	}
+	.nav__ul-resposive {
+		display: block;
+	}
+
+	.logo {
+		left: 20%;
+	}
+	
+
+}
+@media screen and (max-width: 992px){
+	.Redes_Sociales {
+		padding-left: 70%;
+
+	}
+}
+@media screen and (max-width: 878px){
+	
+main {
+	flex-grow: 1;
+	flex-direction: column;
+}
+}
+
+@media screen and (max-width: 680px){
+	.logo {
+		width: 10px;
+	}
+	.card_1 {
+		max-width: 400px;
+		width: 90%;
+		background: red;
+		margin: auto;
+	}
+
+
+
+	.content-footer-1 {
+		padding-left: 1%;
+	}
+	footer .content-footer-3 {
+		padding-left: 80%;
+	}
+	.Redes_Sociales {
+		padding-left: 60%;
+	}
+}
+@media screen and (max-width: 500px){
+	footer {
+		height: auto;
+	}
+	.content-footer-1 {
+		position: relative;
+		text-align: center;
+	}
+	footer .content-footer-2 {
+		position: relative;
+		padding-left: 1%;
+		padding-top: 0px;
+		text-align: center;
+	}
+	footer .content-footer-3 {
+		position: relative;
+		padding-left: 1%;
+		bottom: 40px;
+		text-align: center;
+	}
+	.Redes_Sociales {
+		position: absolute;
+		padding-left: 30%;
+	}
+}
